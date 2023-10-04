@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: fuchsia;
+    border-radius: 40px;
+    border: 5px solid yellow;
+}
+#container:hover{
+    background-color: aqua;
+}
+#nav{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 20px;
+    border: 5px solid crimson;
+    background-color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+#nav:hover{
+        background-color: yellow;
+}
+#elem{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1vw;
+}
+#elem h2{
+    font-size: 2vw;
+    color: blue;
+    text-shadow: 4px 2px 6px green;
+}
+.box{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px white;
+}
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px;
+    font-size: 1.2vw;
+    font-weight: 800;
+    text-shadow: 4px 4px 6px rgb(235, 99, 8);
+    cursor: pointer;
+}
+.bubble:hover  {
+    background-color: darkorange;
+    cursor: pointer;
+}
+#asd{
+    height: 90%;
+    width: 90%;
+    font-size: 130px;
+    color: yellow;
+    margin-left: 15%;    
+    transition: 1s height, 1s width;
+} 
